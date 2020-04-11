@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+
+:root {
+  font-size: 16px;
+  font-family: 'Roboto Slab', serif;
+}
+
+div,
+button,
+input {
+  box-sizing: border-box;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url('img/backgroud.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.frame {
+  display: flex;
+  justify-content: space-between;
+  height: 5.5vh;
+}
+
+.frame img {
+  height: 100%;
+}
+
+main {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main p {
+  font-size: 2rem;
+}
+
+main p:last-child {
+  font-size: 1.8rem;
+  padding: 0 6vw;
+  font-weight: bold;
+}
+
+main img {
+  height: 15vh;
+}
+
+main img + img {
+  height: 28vh;
+}
+
+#share {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#share input {
+  height: 35px;
+  width: 200px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#share input::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+#share button {
+  height: 35px;
+  width: 100px;
+  background-color: #00a8cc;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+img + img {
+  transform: scaleX(-1);
+}
+
+#sendWhatsApp {
+  width: 250px;
+  height: 36px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sendWhatsApp img {
+  width: 26px;
+  margin: 5px 5px 5px 0;
+}
+
+.hide {
+  display: none !important;
+}
