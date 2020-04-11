@@ -58,11 +58,11 @@ main {
 }
 
 main p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 main p:last-child {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -71,7 +71,7 @@ main img {
 }
 
 main img + img {
-  height: 28vh;
+  height: 30vh;
 }
 
 #share {
