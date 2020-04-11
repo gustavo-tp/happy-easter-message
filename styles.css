@@ -17,7 +17,7 @@ p {
 }
 
 body {
-  height: 100vh;
+  height: 120vh;
   background-image: url('img/backgroud.jpg');
   background-size: cover;
   background-position: center;
