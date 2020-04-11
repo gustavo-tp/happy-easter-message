@@ -33,7 +33,7 @@ body {
 
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -58,12 +58,11 @@ main {
 }
 
 main p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 main p:last-child {
-  font-size: 1.8rem;
-  padding: 0 6vw;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
